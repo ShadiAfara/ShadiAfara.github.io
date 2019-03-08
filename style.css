@@ -1,0 +1,91 @@
+body{
+    font-family: 'Helvetica', sans-serif;
+	background-color: #333;
+}
+#mainhead{
+    font-family: 'Helvetica', sans-serif;
+	font-size: 75px;
+	text-decoration: bold;
+	color: #4CAF50;
+	text-align: center;
+	text-shadow: 3px 2px black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+	text-align:center;
+	
+}
+
+li {
+    display:inline;
+	z-index: +1;
+}
+
+li a {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	display:inline-block;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #4CAF50;
+	color: white;
+}
+.active {
+    background-color: #4CAF50;
+	color: white;
+}
+
+.txtarea{
+	background-color:#f1f1f1;
+	padding: 50%
+}
+.column {
+    float: left;
+	
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+	
+}
+
+.left, .right {
+  width: 25%;
+  background-color: #333;
+}
+.right {
+  width: 25%;
+  float: right;
+}
+
+.middle {
+  width: 46%;
+  background-color:#f1f1f1;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+  line-height: 1.6;
+  
+}
+
+h2{
+	text-align: center;
+	text-decoration: underline;
+}
+p {
+	text-align: center;
+}

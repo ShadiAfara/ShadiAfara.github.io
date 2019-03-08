@@ -1,0 +1,3 @@
+The home page of my portfolio is called "ePortfolio.html" (I know its not index!). 
+
+Open this file so that you can start reading from the home page!
